@@ -57,7 +57,6 @@ To create the final optimized executable (`.exe` file):
 npm run tauri build
 ```
 
-
-
 ![](screenshot/1.png)
+
 ![](screenshot/2.png)
