@@ -1,6 +1,6 @@
 # Advertisement Manager
 
-[العربية](README.md) | [Français](README_fr.md) |
+[العربية](README.md) | [Français](README_fr.md)
 
 A cross-platform desktop application built with **Tauri**, **React**, and **Tailwind CSS**. 
 This software allows you to easily create professional advertising posters.
@@ -56,6 +56,8 @@ To create the final optimized executable (`.exe` file):
 ```bash
 npm run tauri build
 ```
+
+
 
 ![](screenshot/1.png)
 ![](screenshot/2.png)
