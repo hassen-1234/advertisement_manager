@@ -1,55 +1,58 @@
-# Gestionnaire de Publicités (Advertisement Manager)
+# مدير الإعلانات (Advertisement Manager)
 
-Une application de bureau multiplateforme construite avec **Tauri**, **React** et **Tailwind CSS**. 
-Ce logiciel permet de créer facilement des affiches publicitaires professionnelles pour les services de livraison et d'e-commerce.
+[English](README_en.md) | [Français](README_fr.md)
 
-## 🚀 Fonctionnalités Clés
 
-- **Création de Services Personnalisée** : Ajoutez des services avec des titres, des couleurs et des icônes personnalisées (images locales).
-- **Aperçu en Temps Réel** : Visualisez instantanément le rendu de l'affiche publicitaire.
-- **Mise en Page Adaptative** : L'agencement de la grille s'adapte automatiquement selon le nombre de services (3, 4, ou 5 colonnes) pour un rendu toujours esthétique.
-- **Pied de Page Localisé** : Intégration automatique des logos de paiement (Bankily, Sedad, Click, BCIpay) et des contacts (Whatsapp, Snapchat).
-- **Exportation HD** : Exportez votre création en un clic au format **PNG** haute résolution.
-- **Interface Moderne** : UI soignée avec effets 3D, dégradés et animations fluides.
+تطبيق سطح مكتب متعدد المنصات تم بناؤه باستخدام **Tauri** و **React** و **Tailwind CSS**.
+يسمح هذا البرنامج بإنشاء إعلانات احترافية بسهولة.
 
-## 🛠️ Technologies Utilisées
+## 🚀 الميزات الرئيسية
 
-- **Frontend** : React 19, Vite
-- **Styling** : Tailwind CSS
-- **Backend / Core** : Tauri v2 (Rust)
-- **Utilitaires** : `html-to-image` (export), `react-hot-toast` (notifications)
+- **إنشاء خدمات مخصصة**: أضف خدمات بعناوين وألوان وأيقونات مخصصة (صور محلية).
+- **معاينة فورية**: شاهد فوراً شكل الملصق الإعلاني أثناء التصميم.
+- **تنسيق متكيف**: يتكيف تخطيط الشبكة تلقائياً حسب عدد الخدمات (3 أو 4 أو 5 أعمدة) لضمان مظهر جمالي.
+- **تذييل مخصص**: دمج تلقائي لشعارات الدفع (Bankily، Sedad، Click، BCIpay) وجهات الاتصال (Whatsapp، Snapchat).
+- **تصدير بجودة عالية**: قم بتصدير تصميمك بنقرة واحدة بتنسيق **PNG** عالي الدقة.
+- **واجهة عصرية**: واجهة مستخدم متقنة مع تأثيرات ثلاثية الأبعاد، تدرجات وحركات سلسة.
 
-## 📋 Prérequis
+## 🛠️ التقنيات المستخدمة
 
-Avant de commencer, assurez-vous d'avoir installé :
+- **الواجهة الأمامية (Frontend)**: React, Vite
+- **التنسيق (Styling)**: Tailwind CSS
+- **النظام الأساسي (Backend / Core)**: Tauri (Rust)
+- **الأدوات المساعدة**: `html-to-image` (للتصدير)، `react-hot-toast` (للتنبيهات)
 
-1.  **Node.js** (version 18 ou supérieure)
-2.  **Rust** (via `rustup`)
-3.  **Outils de Build C++** (pour Windows : Visual Studio Build Tools avec "Développement Desktop C++")
+## 📋 المتطلبات المسبقة
 
-## 🔧 Installation
+قبل البدء، تأكد من تثبيت البرامج التالية:
 
-Clonez le projet et installez les dépendances :
+1. **Node.js** (الإصدار 18 أو أحدث)
+2. **Rust** (عبر `rustup`)
+3. **أدوات بناء C++** (لويندوز: Visual Studio Build Tools مع خيار "Desktop development with C++")
+
+## 🔧 التثبيت
+
+قم باستنساخ المشروع وتثبيت التبعيات:
 
 ```bash
-# Aller dans le dossier du projet
+# الانتقال إلى مجلد المشروع
 cd advertisement_manager
 
-# Installer les dépendances JavaScript
+# تثبيت تبعيات JavaScript
 npm install
 ```
 
-## ▶️ Démarrage (Développement)
+## ▶️ التشغيل (في وضع التطوير)
 
-Pour lancer l'application en mode développement :
+لتشغيل التطبيق في وضع التطوير:
 
 ```bash
 npm run tauri dev
 ```
 
-## 📦 Construction (Production)
+## 📦 البناء (للإنتاج)
 
-Pour créer l'exécutable final optimisé (fichier `.exe`) :
+لإنشاء ملف التشغيل النهائي المحسن (ملف `.exe`):
 
 ```bash
 npm run tauri build
