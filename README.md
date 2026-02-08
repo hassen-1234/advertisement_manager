@@ -57,3 +57,6 @@ npm run tauri dev
 ```bash
 npm run tauri build
 ```
+
+![](screenshot/1.png)
+![](screenshot/2.png)

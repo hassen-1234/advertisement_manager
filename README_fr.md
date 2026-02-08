@@ -57,3 +57,6 @@ Pour créer l'exécutable final optimisé (fichier `.exe`) :
 ```bash
 npm run tauri build
 ```
+
+![](screenshot/1.png)
+![](screenshot/2.png)
